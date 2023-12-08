@@ -1,0 +1,108 @@
+    .slideshow-section {
+            background-color: #6F8FAF;
+            padding: 20px;
+            margin-top: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: left;
+            overflow: hidden;
+            position: relative;
+        }
+
+       
+
+        .slideshow-item {
+            flex-shrink: 0;
+            width: 100%;
+            box-sizing: border-box;
+            object-fit: cover;
+            display: none;
+        }
+
+        .slideshow-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .slideshow-buttons {
+    	    display: flex;
+            justify-content: space-between;
+            width: 100%; /* Folosim 100% din lățime */
+	}
+
+	.slideshow-container {
+    	    display: flex;
+            max-width: 100%; /* Folosim 100% din lățime */
+            overflow: hidden;
+            margin-top: 10px;
+            transition: transform 1s ease-in-out;
+            position: relative;
+	}
+
+        .slideshow-buttons button {
+            font-size: 20px;
+        }
+
+        #name-container {
+            border: 4px solid black;
+            background-color: #FAC898;
+            padding: 20px;
+            margin-top: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: left;
+        }
+
+        #name {
+            color: #C3B1E1;
+	}
+
+        #email {
+            color: #3F00FF;
+            text-decoration: underline;
+            width: 60%;
+            margin: auto;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        table, th, td {
+            border: 1px solid purple;
+            margin: 0;
+        }
+
+        .specification-section {
+            padding: 20px;
+            margin-top: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: left;
+        }
+
+        .network-section {
+            border: 2px solid darkred;
+            background-color: lightblue;
+            padding: 20px;
+            margin-top: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: left;
+        }
+
+        h3 {
+            color: #4682B4;
+            font-style: italic;
+            text-decoration: underline;
+        }
+	
+	#slideshowHeader {
+	    padding: 20px;
+            margin-top: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: left;
+	}
