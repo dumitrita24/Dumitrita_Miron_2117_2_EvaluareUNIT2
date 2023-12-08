@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miron Dumitrița</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="name-container">
+        <h1 id="name">Miron Dumitrița</h1>
+    </div>
+
+    <div class="w3-card-4 w3-center">
+        <div class="w3-container w3-center">
+            <p id="email">Miron.Ma.Dumitrita@student.utcluj.ro</p>
+        </div>
+    </div>
+
+    <div class="specification-section">
+        <h3>Specificații tehnice ale stației principale de lucru</h3>
+        <table>
+            <tr>
+                <th>Denumire componentă</th>
+                <th>Parametri</th>
+                <th>Producător</th>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td>Intel i5</td>
+                <td>Intel</td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td>8GB</td>
+                <td>Corsair</td>
+            </tr>
+            <tr>
+                <td>Storage</td>
+                <td>256GB SSD</td>
+                <td>Samsung</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="network-section">
+        <h3>Structura rețelei personale și accesul la internet</h3>
+        <img src="Diagramă.png" id="Diagramă" height="350" alt="Diagrama" />
+        <h3>Caracteristicile conexiunii la rețea</h3>
+        <ul class="w3-ul w3-border" style="width:100%">
+            <li>a. 00-FF-EE-01-2C-C6</li>
+            <li>b. 172.20.10.6(Preferred)</li>
+            <li>c. 2.35 Mbit/s</li>
+            <li>d. 0.54 Mbit/s</li>
+        </ul>
+    </div>
+
+<h3 id="slideshowHeader" ondblclick="startSlideshow()">Utilizarea resurselor (slideshow)</h3>
+    <div class="slideshow-section">
+        <div class="slideshow-container">
+            <img src="printscreen1.png" class="slideshow-item mySlides" alt="Slide 1">
+            <img src="printscreen2.png" class="slideshow-item mySlides" alt="Slide 2">
+            <img src="printscreen3.png" class="slideshow-item mySlides" alt="Slide 3">
+            <img src="printscreen4.png" class="slideshow-item mySlides" alt="Slide 4">
+            <div class="slideshow-controls">
+                <div class="slideshow-buttons">
+                    <button onclick="plusSlides(-1)">❮</button>
+                    <button onclick="plusSlides(1)">❯</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
